@@ -213,6 +213,8 @@ ul, li {
 .top-div {
     background-color: rgb(84, 171, 142);
     width: 500px;
+    position: sticky;
+    top: 0px;
 }
 
 .top-list {
