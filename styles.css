@@ -215,6 +215,7 @@ ul, li {
     width: 500px;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 .top-list {
