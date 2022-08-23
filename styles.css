@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1d4646;
+}
+
+p, .footer-link, .top-link, .go-up{
+    font-family: 'Merienda', cursive;
+    font-size: 1.5rem;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-size: 1.95rem;
+}
+
+a  {
+    text-decoration: none;
+}
+
+a:link {
+    color: #04383a;
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+a:hover {
+    color: grey;
+}
+
+.top-container {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 150px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    display: none;
+    bottom: 1950px;
+}
+
+.header {
+    position: relative;
+    padding-top: 100px;
+}
+
+.tomiwa-image {
+    width: 400px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.computer {
+    border-radius: 30%;
+}
+
+.camera {
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.footer-link {
+    color: #11999E;
+    text-decoration: none;
+    padding: 20px;
+}
+
+hr {
+    width: 10%;
+    border: none;
+    border-top-style: dotted;
+    color: rgba(128, 128, 128, 0.954);
+    border-radius: 20px;
+}
+
+.profile {
+    margin-top: 200px;
+}
+
+.section-one {
+    margin-top: 150px;
+}
+
+.skill-row {
+    width: 25%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+.mountain {
+    margin-top: 30px;
+}
+
+.btn {
+    background: #11cdd4;
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Roboto, cursive;
+    color: FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 50px;
+    height: 3.9rem;
+}
+
+.copyright {
+    color: #EAF6F6;
+}
+
+.skill-section {
+    padding: 10px;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Merienda', cursive;
+}
+
+progress {
+    border-radius: 0;
+    border-radius: 20px;
+    height: 40px;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: grey;
+    border-radius: 20px;
+    height: 40px;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: green;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.value {
+    color: red;
+}
+
+::marker {
+    color: grey;
+}
+
+.skill-box {
+    background-color: linear-gradient(180, red, yellow);
+}
+
+ul, li {
+    list-style-type: square;
+    color: black;
+}
+
+.top-link {
+    color: #11999E;
+    padding: 20px;
+}
+
+.go-up {
+    position: absolute;
+    left: 50px;
+}
+
+.head-link {
+    position: absolute;
+    right: 15px;
+    padding-top: 10px;
+}
+
+.list-div {
+    align-items: center;
+}
+
+.top-div {
+    background-color: rgb(84, 171, 142);
+    width: 500px;
+}
+
+.top-list {
+    list-style-type: none;
+    display: inline;
+}
