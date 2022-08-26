@@ -63,13 +63,13 @@ a:hover {
     right: 300px;
     top: 150px;
     animation-name: example;
-    animation-duration: 7s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 }
 
 @keyframes example {
-   0% {right: 500px; right: 600px;}
+   0% {right: 500px; right: 400px;}
 }
 
 .bottom-cloud {
